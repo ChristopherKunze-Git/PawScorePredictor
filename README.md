@@ -15,37 +15,37 @@ The project explores multiple deep learning architectures for feature extraction
 
 Among these, **ViT (Vision Transformer)** achieved the best performance in predicting the Pawpularity Score.
 
-
-PAWSCOREPREDICTOR/ │-- Baseline_Model/ │ ├── image.png │ ├── README.md │ │-- Data_Augmentation/ │ ├── data_augmentation.ipynb │ │-- Dataset_Characteristics/ │ ├── exploratory_data_analysis.ipynb │ │-- Literature_Review/ │ ├── 1512.03385v1.pdf │ ├── 2010.11929v2.pdf │ ├── 2012.12877v2.pdf │ ├── 2103.14030v2.pdf │ ├── README.md │ │-- Model/ │ ├── pawpularity_deit.ipynb │ ├── pawpularity-cnn-mlp.ipynb │ ├── PawScoreModels.ipynb │ ├── plots.ipynb │ │-- Presentation/ │ ├── Final Presentation ML.pptx │ ├── README.md
-
 ## Repository Structure
-📂 PAWSCOREPREDICTOR
-│-- 📂 Baseline_Model/
-│   │-- image.png
-│   │-- README.md
+│   image.png
+│   README.md
+│   requirements.txt
+│   
+├───Baseline_Model
+│       image.png
+│       README.md
+│       
+├───Dataset_Characteristics
+│       exploratory_data_analysis.ipynb
+│       
+├───Data_Augmentation
+│       data_augmentation.ipynb
 │
-│-- 📂 Data_Augmentation/
-│   │-- data_augmentation.ipynb
+├───Literature_Review
+│       1512.03385v1.pdf
+│       2010.11929v2.pdf
+│       2012.12877v2.pdf
+│       2103.14030v2.pdf
+│       README.md
 │
-│-- 📂 Dataset_Characteristics/
-│   │-- exploratory_data_analysis.ipynb
+├───Model
+│       pawpularity-cnn-mlp.ipynb
+│       pawpularity_deit.ipynb
+│       PawScoreModels.ipynb
+│       plots.ipynb
 │
-│-- 📂 Literature_Review/
-│   │-- 1512.03385v1.pdf
-│   │-- 2010.11929v2.pdf
-│   │-- 2012.12877v2.pdf
-│   │-- 2103.14030v2.pdf
-│   │-- README.md
-│
-│-- 📂 Model/
-│   │-- pawpularity_deit.ipynb
-│   │-- pawpularity-cnn-mlp.ipynb
-│   │-- PawScoreModels.ipynb
-│   │-- plots.ipynb
-│
-│-- 📂 Presentation/
-│   │-- Final Presentation ML.pptx
-│   │-- README.md
+└───Presentation
+        Final Presentation ML.pptx
+
 
 
 ## Installation
