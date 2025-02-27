@@ -1,5 +1,7 @@
 # PetFinder Pawpularity Contest - Deep Learning Models
 
+### Intermediate Machine Learning Course Project: https://edu.opencampus.sh/
+
 This repository contains the code and models used for the [Kaggle PetFinder.my - Pawpularity Contest](https://www.kaggle.com/competitions/petfinder-pawpularity-score). The goal of this challenge is to predict the **Pawpularity Score** of pet images based on their visual features.
 
 ## Models and Methods Used
@@ -14,38 +16,6 @@ The project explores multiple deep learning architectures for feature extraction
 - **OpenAI CLIP Model**
 
 Among these, **ViT (Vision Transformer)** achieved the best performance in predicting the Pawpularity Score.
-
-## Repository Structure
-│   image.png
-│   README.md
-│   requirements.txt
-│   
-├───Baseline_Model
-│       image.png
-│       README.md
-│       
-├───Dataset_Characteristics
-│       exploratory_data_analysis.ipynb
-│       
-├───Data_Augmentation
-│       data_augmentation.ipynb
-│
-├───Literature_Review
-│       1512.03385v1.pdf
-│       2010.11929v2.pdf
-│       2012.12877v2.pdf
-│       2103.14030v2.pdf
-│       README.md
-│
-├───Model
-│       pawpularity-cnn-mlp.ipynb
-│       pawpularity_deit.ipynb
-│       PawScoreModels.ipynb
-│       plots.ipynb
-│
-└───Presentation
-        Final Presentation ML.pptx
-
 
 
 ## Installation
